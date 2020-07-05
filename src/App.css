@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.calculator-body{
+  /* margin-top: 50;
+  align-content: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  //background-color: rgb(55, 112, 122);
+
+  
+}
+.button-container{
+  height: 70px;
+  width: 60px;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: #84a9ac;
+  }
+}
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
